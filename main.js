@@ -87,20 +87,23 @@ function settime(){
 function msg2(){
     var newtime = new Date();
     var hrr = newtime.getHours();
+    console.log(hrr);
 
  if(hrr>=4 && hrr<12){
-    document.getElementById("right-scr-msg").innerHTML="Just know that you always bring out the best in me. Good morning, sunshine!";
+    document.getElementById("right-scr-msg").innerHTML="Just know that you always bring out <br> the best in me. Good morning, sunshine!";
 }
 else if(hrr>=12 && hrr<16){
-    document.getElementById("right-scr-msg").innerHTML="What a beautiful day. Try to leave work early to enjoy this wonderful day.";
+    document.getElementById("right-scr-msg").innerHTML="What a beautiful day. Try to <br> leave work early to enjoy this wonderful day.";
 }
-else if(hrr>=16 && hrr>20){
-    document.getElementById("right-scr-msg").innerHTML="Evenings are for relaxing with a cup of tea and preparing yourself for tomorrow. Good evening buddy!";
+else if(hrr>=16 && hrr<20){
+    console.log("hello");
+    document.getElementById("right-scr-msg").innerHTML="Evenings are for relaxing with a cup of tea and <br> preparing yourself for tomorrow. Good evening buddy!";
 }
 else if(hrr>=20 || hrr<4){
-    document.getElementById("right-scr-msg").innerHTML="May the brightest stars twinkle upon your head while you sleep tonight and may your life shine when you wake up tomorrow. Have a good sleep!";
+    document.getElementById("right-scr-msg").innerHTML="May the brightest stars twinkle upon your head <br> while you sleep tonight and may your life shine <br> when you wake up tomorrow. Have a good sleep!";
 }
 
 
 }
+// document.getElementById("right-scr-msg").innerHTML="Evenings are for relaxing with a cup of tea and preparing yourself for tomorrow. Good evening buddy!";
 msg2();

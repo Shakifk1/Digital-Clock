@@ -17,7 +17,7 @@
             <div class="selection-div">
                 <div class="same-size wake"><img src="./wake_up.png" alt="">
                     <label for="wake-select">Set Wake Up Time</label>
-                    <select class="select-box" id="wake-select">
+                    <select style="margin-left: 1em;" class="select-box" id="wake-select">
                         <option value="default">Default Value</option>
                         <option value="0">12 AM - 1AM</option>
                                  <option value="1">1 AM - 2AM</option>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="same-size lunch"><img src="./lunch_time.png" alt="">
                     <label for="lunch-select">Set Lunch Time</label>
-                    <select style="margin-left: 3.2em;" class="select-box" id="lunch-select">
+                    <select style="margin-left: 2.2em;" class="select-box" id="lunch-select">
                         <option value="default">Default Value</option>
                         <option value="0">12 AM - 1AM</option>
                                  <option value="1">1 AM - 2AM</option>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="same-size nap"><img src="./nap_time.png" alt="">
                     <label for="nap-select">Set Nap Time</label>
-                    <select style="margin-left: 4em;" class="select-box" id="nap-select">
+                    <select style="margin-left: 3em;" class="select-box" id="nap-select">
                         <option value="default">Default Value</option>
                         <option value="0">12 AM - 1AM</option>
                                  <option value="1">1 AM - 2AM</option>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="same-size night"><img src="./wake_up.png" alt="">
                     <label for="night-select">Set Night Time</label>
-                    <select style="margin-left: 3.3em;" class="select-box" id="night-select">
+                    <select style="margin-left: 2.3em;" class="select-box" id="night-select">
                         <option value="default">Default Value</option>
                         <option value="0">12 AM - 1AM</option>
                                  <option value="1">1 AM - 2AM</option>
@@ -139,7 +139,7 @@
             </div>
             <div id="left-scr-msg">Everything is Perfect</div>
             <div class="btn-value-flex">
-                <div class="btn" onclick="settime()" id="alram-btn">Set Alarm</div>
+                <div class="btn" onclick="settime()" id="alram-btn"> <button onclick="settime()" id="alram-btn">Set Alarm</button></div>
                 <div id="select-value">
                     <div id="valueMsg1"></div>
                     <div id="valueMsg2"></div>
@@ -172,7 +172,7 @@
             </div>
             <div class="tb1"></div>
             <div class="tb2"></div>
-            <div id="right-scr-msg">good morning every one</div>
+            <div id="right-scr-msg"></div>
             <div id="image-select">
                 <!-- <img id="changeable-image" src="./constant.jpg" alt=""> -->
             </div>
