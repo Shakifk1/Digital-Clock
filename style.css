@@ -19,7 +19,7 @@ body{
 }
 .selection-div{
     width: 100%;
-    height: 24em;
+    height: 26em;
     border-radius: 1em;
     margin-bottom: 1em;
     background-color: white;
@@ -41,9 +41,13 @@ label{
     font-size: 24px;
     color: #3D087B;
 }
-.lunch-select{
+/* .lunch-select{
     margin-left: 3em;
-}
+} */
+.s-mrgn1{ margin-left: 1em;}
+.s-mrgn2{ margin-left: 2.2em;}
+.s-mrgn3{ margin-left: 3em;}
+.s-mrgn4{ margin-left: 2.3em;}
 #left-scr-msg{
     width: 100%;
     margin-top: 1em;
@@ -72,6 +76,9 @@ label{
     font-weight: bold;
 
     background-image: linear-gradient(to right,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+}
+#alram-btn:hover{
+    background-image: linear-gradient(to left,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
 }
 #select-value{
     width: 50%;
@@ -112,12 +119,12 @@ label{
     font-size: 32px;
 }
 #text-ampm{
-    height: 70%;
+    height: 46%;
     width: 15%;
     border-radius: 0.4em;
-    background-color: white;
+    background-color: skyblue;
     font-size: 32px;
-    padding-top: 0.5em;    
+    padding: 0.5em;    
 }
 .tb1{
     display: relative;
@@ -161,6 +168,7 @@ label{
     margin-top: 2em;
     background-image: url(./constant.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 #changeable-image{
@@ -186,6 +194,7 @@ label{
     }
     .grid-container2{
         width:100%;
+        margin-top: 3em;
         grid-column: 1;
         grid-row: 2;
     }
@@ -223,11 +232,16 @@ label{
     #right-scr-msg{
         font-size: 0.8em;
     }
-    label , .select-box{
+    /* label , .select-box{
         padding: 0%;
         width: 80%;
         font-size: 1em;
-    }
+    } */
+    .s-mrgn1{ margin-left: 3.6em; width: 60%;}
+    .s-mrgn2{ margin-left: 3.6em; width: 60%;}
+    .s-mrgn3{ margin-left: 3.6em; width: 60%;}
+    .s-mrgn4{ margin-left: 3.6em; width: 60%;}
+    #image-select{width: 90%;margin: auto;margin-top: 1em;}
 
     
 }

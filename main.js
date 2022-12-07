@@ -19,6 +19,10 @@ if(hour>12){
 }
 else{
 document.getElementById("text-ampm").innerHTML="AM";}
+if(hour==0){
+    hour=12;
+    document.getElementById("hr").innerHTML = hour;
+}
 }
 setInterval(clock,1000); //here 1000 is mili-seconds so it is treated as 1 sec.
 
