@@ -78,7 +78,7 @@ function settime(){
     }
     else{
         document.getElementById("image-select").style.backgroundImage= "url(./constant.jpg)";
-        document.getElementById("left-scr-msg").innerHTML="Set Alaram!!";
+        document.getElementById("left-scr-msg").innerHTML="Everything is Perfect !!";
 
     }
 
@@ -86,6 +86,8 @@ function settime(){
     valuediv2();
     valuediv3();
     valuediv4();
+
+    document.getElementById("select-value").style.visibility="visible";
 }
 
 function msg2(){
