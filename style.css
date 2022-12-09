@@ -87,7 +87,7 @@ label{
     background-image: linear-gradient(to left,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
 }
 #select-value{
-    width: 50%;
+    width: 46%;
     padding: 1em;
     border-radius: 1em;
     font-size: 1em;
@@ -189,6 +189,14 @@ label{
 }
 
 @media only screen and (max-width: 1080px) and (min-width: 601px) {
+    .clock-img{
+        margin-bottom: 11em;
+    }
+    .alltimebox{
+        position: absolute;
+        top: 33%;
+        width: 100%;
+    }
     .Grid-parent{
         display: grid;
         grid-template-columns: 1fr;
@@ -205,13 +213,21 @@ label{
     }
     .grid-container2{
         width:100%;
-        margin-top: 3em;
+        margin-top: 10em;
         grid-column: 1;
         grid-row: 2;
     }
 }
 
 @media only screen and (max-width: 600px) {
+    .clock-img{
+        margin-bottom: 11em;
+    }
+    .alltimebox{
+        position: absolute;
+        top: 33%;
+        width: 100%;
+    }
     .Grid-parent{
         display: grid;
         grid-template-columns: 1fr;
@@ -230,7 +246,7 @@ label{
         width:100%;
         grid-column: 1;
         grid-row: 2;
-        margin-top: 6em;
+        margin-top: 14em;
     }
     .btn-value-flex{
         flex-direction: column;
